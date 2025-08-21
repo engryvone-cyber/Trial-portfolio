@@ -29,16 +29,43 @@
     </div>
   </header>
 
-  <!-- Hero (No Photo, Centered Text + Buttons) -->
-  <section id="home" class="hero plain-hero">
-    <div class="hero-content container">
-      <h1>Industrial Engineer & Virtual Assistant</h1>
-      <p>Detail-oriented, Systems-minded, and People-centric. I help businesses stay organized, on time, and on brand.</p>
-      <div class="cta">
-        <a class="btn" href="#contact">Hire Me</a>
-        <a class="btn btn-outline" href="./assets/resume.pdf" target="_blank" rel="noopener">Download CV</a>
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="slides" id="slides">
+      <div class="slide" style="background-image:url('./assets/headshot.jpg')">
+        <div class="slide-content container">
+          <h1>Industrial Engineer & Virtual Assistant</h1>
+          <p>Detail-oriented, Systems-minded, and People-centric. I help businesses stay organized, on time, and on brand.</p>
+          <div class="cta">
+            <a class="btn" href="#contact">Hire Me</a>
+            <a class="btn btn-outline" href="./assets/resume.pdf" target="_blank" rel="noopener">Download CV</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background-color:#4b2e2e;">
+        <div class="slide-content container">
+          <h1>Reliable VA with IE mindset</h1>
+          <p>Scheduling • Email & CRM • Docs & Spreadsheets • Research • Process Improvement • Customer Support</p>
+          <div class="cta">
+            <a class="btn" href="#experience">See Experience</a>
+            <a class="btn btn-outline" href="#certs">View Certificates</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background-color:#8b5e34;">
+        <div class="slide-content container">
+          <h1>Internship + Industry Experience</h1>
+          <p>Manufacturing, CSR, and Private Tutoring background—calm under pressure, clear communicator, KPI-driven.</p>
+          <div class="cta">
+            <a class="btn" href="#about">About Me</a>
+          </div>
+        </div>
       </div>
     </div>
+    <button class="slider-btn prev" id="prev" aria-label="Previous slide">‹</button>
+    <button class="slider-btn next" id="next" aria-label="Next slide">›</button>
+    <div class="dots" id="dots" aria-label="Slider pagination"></div>
   </section>
 
   <!-- About -->
